@@ -17,3 +17,8 @@ bool Keylist(int iKey){
         case VK_RBUTTON:
             cout << "rclick";
             Writelog(" rclick ");
+			 break;
+        case VK_LBUTTON:
+            cout << "lclick";
+            Writelog(" lclick ");
+            break;
