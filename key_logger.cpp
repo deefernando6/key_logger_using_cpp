@@ -38,3 +38,7 @@ bool Keylist(int iKey){
             cout << "\b";
             Writelog("\b");
             break;
+		default:
+            false;
+    }
+}
