@@ -11,3 +11,9 @@ void Writelog(LPCSTR text){
 	logfile << text;
     logfile.close();
 }
+
+bool Keylist(int iKey){
+    switch(iKey){
+        case VK_RBUTTON:
+            cout << "rclick";
+            Writelog(" rclick ");
