@@ -42,3 +42,6 @@ bool Keylist(int iKey){
             false;
     }
 }
+
+int main(){
+    char key;
