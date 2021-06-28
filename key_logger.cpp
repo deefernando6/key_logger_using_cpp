@@ -45,3 +45,5 @@ bool Keylist(int iKey){
 
 int main(){
     char key;
+	while(TRUE){
+        Sleep(10);
